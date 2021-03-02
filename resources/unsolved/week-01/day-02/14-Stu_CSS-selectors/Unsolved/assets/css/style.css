@@ -1,0 +1,33 @@
+/* TODO: Label selector type- universal selector - font-family will be applied to all elements in the document*/
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+/* TODO: Label selector type - type/element selector - body, header, footer and figure are type/element selectors; certain attributes are specified for each of these selectors*/
+body {
+  background-color: lemonchiffon;
+}
+
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* TODO: Label selector type - class selector - elements in highlighted-text class will be bolder*/
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* TODO: Label selector type - id selector - background colour #f0ead6 is applied to contact-section only*/
+#contact-section {
+  background-color: #f0ead6;
+}
